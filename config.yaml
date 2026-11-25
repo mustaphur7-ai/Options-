@@ -1,0 +1,16 @@
+ws_url: "wss://ws.derivws.com/websockets/v3?app_id=1089"
+symbols: [R_10, R_25, R_50, R_75, R_100, frxEURUSD]
+timeframes:
+  1m: 60
+  5m: 300
+  15m: 900
+candles: 500
+payout: 0.90          # typical Rise/Fall payout (profit per 1 staked)
+indicators:
+  rsi_period: 14
+  macd: [12, 26, 9]
+  bollinger: [20, 2.0]
+  ema_fast: 20
+  ema_slow: 50
+  stoch: [14, 3]
+  atr_period: 14
